@@ -1,0 +1,19 @@
+{
+  "name": "automacao-remax",
+  "version": "1.0.0",
+  "description": "Automação web simples com entrada fixa em www.remax.com",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/automacao.js",
+    "start:headed": "node src/automacao.js --headed",
+    "test": "playwright test",
+    "test:headed": "playwright test --headed"
+  },
+  "dependencies": {
+    "playwright": "^1.55.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0"
+  }
+}
